@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: #eaeaea;
+	overflow: hidden;
+}
+
+.container {
+	width: 300px;
+	height: 380px;
+	background-color: #eaeaea;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	display: inline-block;
+	box-shadow: 5px 5px 5px 5px #c2c2c2;
+}
+
+.container:hover {
+	padding: 20px;
+	transition: .3s;
+}
+
+.container, .nma-judul{
+	text-align: center;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid silver;
+	margin-bottom: 15px;
+	color: skyblue;
+	font-size: 25px;
+}
+
+.in-text, form {
+	text-transform: none;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 16px;
+}
+
+form:hover {
+	color: #ff75a8;
+	transition: .3s;
+}
+input {
+	padding: 8px 35px;
+	margin-bottom: 15px;
+	border: none;
+	outline-color: none;
+	background-color: transparent;
+	border-bottom: 1px solid skyblue;
+	cursor: pointer;
+}
+
+input:hover {
+	border-bottom: 2px solid #ff75a8;
+}
+button {
+	padding: 5px 60px;
+	font-size: 15px;
+	background-color: skyblue;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #ffff;
+}
+.info {
+	font-size: 11px;
+	padding-bottom: 25px;
+	padding-left: 18px;
+	color: black;
+}
+button:hover {
+	background-color: #ff75a8;
+	color: floralwhite;
+	transition: .3s;
+}
